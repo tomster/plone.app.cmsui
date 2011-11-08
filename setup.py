@@ -30,6 +30,7 @@ setup(name='plone.app.cmsui',
           'Products.CMFPlone',
           'plone.namedfile[blobs]',
           'plone.formwidget.namedfile',
+          'plone.app.toolbar',
           # XXX: Unclear why this isn't being pulled into a plain Plone 4.1 site
           'zope.browserresource',
       ],
